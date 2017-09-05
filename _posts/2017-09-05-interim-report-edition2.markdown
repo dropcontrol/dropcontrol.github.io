@@ -31,7 +31,7 @@ http://www.dropcontrol.com
 </p>
 </blockquote>
 
-dropcontrol名義(DUOとQUARTET)で過去に2回演奏しています。下記にライブの映像を貼っておきますのでよろしかったらどうぞ。
+dropcontrol名義(DUOとQUINTET)で過去に2回演奏しています。下記にライブの映像を貼っておきますのでよろしかったらどうぞ。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2SS6UumYiyw" frameborder="0" allowfullscreen></iframe>
 
