@@ -1,18 +1,32 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Profile
+permalink: /profile/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## HIROSHI YAMATO / dropcontrol
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### Biography
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**音楽家(作編曲、ギタリスト、テナーサックス奏者、ビートメーカー)、エンジニア、写真家**
 
+1970年生れ。横浜出身。  
+高校卒業後、自主映画への音楽提供をしながら、日本ユニソフト、米国ブログベンチャーであるSixApartの日本法人(現在のシックスアパート株式会社)で主にサポートエンジニアとしてキャリアの前半をスタートする。その後、「デザイン、情報、人を繋ぐ」をコンセプトにデザイン会社である[合同会社アライアンス・ポート](http://www.allianceport.jp/)(現アライアンス・ポート株式会社)を共同創業者として起業し初代CEO、テクニカルディレクターを務める。主な実績に、山口情報芸術センター、日本科学未来館など国内有数の文化施設のウェブサイトの構築等を手掛ける(現在は退職し、アドバイザリーボードメンバーに就任)。
 
-[jekyll-organization]: https://github.com/jekyll
+2016年4月に情報科学芸術大学院大学([IAMAS](http://www.iamas.ac.jp))に修士課程に入学し三輪眞弘に師事。現在は、同学において「音楽におけるリズムの研究と作品作り」を行っている。
+
+また、ギター演奏全般を[小川銀次](http://ginjiogawa.co.uk/frame.htm)、ジャズギターを[市野元彦](http://motohikoichino.com)に師事。また音楽理論、テナーサックスを[菊地成孔](https://www.kikuchinaruyoshi.net)に師事する。菊地成孔主宰する「ペンギン音楽大学」で制作された「PCM15 BEAT MUSICS/ペンギン音楽大学院2015年度ブラックミュージッククラス卒業制作集」(Sony Music Artists/TABOOレーベルから2016/4/26にリリース)にビートメイカーとし楽曲を提供。
+
+### What's dropcontrol
+
+2017年から始動した自身の主宰するex-Jazzプロジェクト。ジャズ基調でありながらもジャンル横断、アルゴリズミック、Man->Machine->Manを主題に置きつつも、エンジニアとしてコンピューターシミュレーションや技術的動向を視野に入れながら次の音楽の展開を考える為のプロジェクト。活動の形態はDJ、ソロパフォーマンスからバンドまで。その為メンバーは固定せず流動的。編成によって /DUO /TRIO など呼称にpostfixを付けて活動。現在までの編成は以下の通り。
+
+* 2017/3：[dropcontrol/QUINTET](https://www.youtube.com/watch?v=2SS6UumYiyw&t=2139s) (feat. アルトサックス：津上研太、テナーサックス：塙健介、ベース：永松歩、ドラム：吉島智仁。※ゲスト ソプラノサックス：クマムラゴウスケ)
+* 2017/7：[dropcontrol/DUO+1](https://www.youtube.com/watch?v=81oXx8oXbtI&t=145s) (feat. ドラム：田中教順、アルトサックス：井上朋子)
+* 2017/9：dropcontrol/TRIO (feat. ドラム：吉島智仁、キーボード：村北泰規)
+
+### CONTACT
+
+制作(楽曲制作、ミックス/マスタリング、インスタレーション作品制作、エンジニアリング、撮影等)や出演オファーなどは、yamato@gmail.com まで。
+
+### Other resources
