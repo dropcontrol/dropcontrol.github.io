@@ -15,6 +15,7 @@ date: "2017-12-02 08:44:52 +0900"
 * homebrewがインストールされていて環境が整っていること
 * Atomがインストールされていること
 * macOS Sierraをこの記事では対象にしてます(その他でも別に似たようなもんだけど)
+
 です。homebrewのインストールとかAtomのインストールについては触れませんので各自ググり力を発揮してください。
 
 ### Atom環境へのPackageのインストール
@@ -32,7 +33,7 @@ homebrewのcaskをつかってインストールします(MacTexでパッケー�
 brew tap caskroom/cask
 ```
 
-brew tapは公式以外のレポジトリをHomebrewに追加して、brewコマンドででinstall, uninstall, updateなどが行うようにします。この場合caskroom/caskのレポジトリを追加。これでMaxTexのインストールをbrewコマンドで行えるので以下を実行。あそうそう、パスワードが要求されることがありますが、そのあたりは表示を良く読んでヨシナに対応してください。
+brew tapは公式以外のレポジトリをHomebrewに追加して、brewコマンドででinstall, uninstall, updateなどが行うようにします。この場合caskroom/caskのレポジトリを追加。これでMacTexのインストールをbrewコマンドで行えるので以下を実行。あそうそう、パスワードが要求されることがありますが、そのあたりは表示を良く読んでヨシナに対応してください。
 
 ```console
 brew cask install mactex
