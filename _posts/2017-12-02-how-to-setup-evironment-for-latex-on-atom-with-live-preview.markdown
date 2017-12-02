@@ -43,6 +43,7 @@ brew cask install mactex
 
 ### Atomの設定
 Atomで先程インストールしたlatexパッケージを検索なりして「Setting」をクリックして設定を開きます。そこで以下の項目をチェック。
+
 ![latexパッケージの設定](https://i.gyazo.com/2ff0b89a21437113287dddd6376b71a0.png)
 
 * Move Result to Source Directoryはチェック
