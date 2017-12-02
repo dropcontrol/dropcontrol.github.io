@@ -2,6 +2,7 @@
 layout: post
 title: "AtomでLatexのライブプレビュー環境を作る(OSX対象)"
 date: "2017-12-02 08:44:52 +0900"
+categories: blog
 ---
 ※ この記事は[IAMAS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/iamas)の12月2日の記事です。
 
