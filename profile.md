@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Profile
+title: Profile(en/ja)
 permalink: /profile/
 ---
 
