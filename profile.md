@@ -8,6 +8,15 @@ permalink: /profile/
 
 ### Biography
 
+**Musicians (composed and arranged, guitarist, tenor saxophonist, beat maker), engineer, photographer**
+
+Born in 1970. I am from Yokohama.
+After graduating from high school, while composing music for independent movies, I started the first half of my career as a support engineer mainly at blog venture company aka [SixApart](http://www.sixapart.jp/). In 2006, we established a joint venture company [Alliance Port](http://www.allianceport.jp/) (currently Alliance Port Co., Ltd.), a design company, with the concept of "connecting people with people", "things and people", "information and people" Started as a co-founder and served as the first CEO and technical director. As a major accomplishment, I am involved in website construction and direction for domestic leading cultural facilities such as [Yamaguchi Center for Arts and Media](http://www.ycam.jp) and [National Museum of Emerging Science and Innovation (Miraikan)](http://www.miraikan.jst.go.jp) and in the development of iOS applications.
+
+After retiring from Alliance Port, I graduated from [Institute of Advanced Media Arts and Sciences (IAMAS)](http://www.iamas.ac.jp) in April 2016. I studied with Prof. Masahiro Miwa at the same university and is doing research and production of rhythm in music.
+
+In addition, I studied guitar with Ginji Ogawa  and jazz guitar with Ichino Motohiko. Also studying music theory, tenor saxophone with Naruyoshi Kikuchi. I released music "NewYork 2997" on the composition compilation album "PCM 15 BEAT MUSICS / PENGIN MUSIC Graduate School 2015 Black Music Class Graduation Works Collection" (Sony Music Artists / TABOO Label released on April 26th, 2016 / [amazon](http://amzn.to/2vJLg15), [iTunes](https://itunes.apple.com/jp/album/pcm15-beat-musics-%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6%E9%99%A22015%E5%B9%B4%E5%BA%A6%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%82%B9%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C%E9%9B%86/id1106801244)) produced at Naruyoshi Kikuchi's "Penguin Music College" , Downloaded and sold with Line Music etc.),  as a beat maker.
+
 **音楽家(作編曲、ギタリスト、テナーサックス奏者、ビートメーカー)、エンジニア、写真家**
 
 1970年生れ。横浜出身。  
@@ -19,21 +28,20 @@ permalink: /profile/
 
 ### What's dropcontrol
 
-2016年から始動した自身の主宰するex-Jazzプロジェクト。音楽家としてジャズ基調でありながらもジャンル横断、アルゴリズミック、Man->Machine->Manを主題に置きつつも、エンジニアとしてコンピューターシミュレーションや技術的動向を視野に入れながら次の音楽の展開を考える為のプロジェクト。活動の形態はDJ、ソロパフォーマンスからバンドまで。その為メンバーは固定せず流動的。編成によって /DUO /TRIO など呼称にpostfixを付けて活動。現在までの活動は以下の通り。
+"The ex-Jazz project" owned by myself started in 2016. I keeping the theme of genre crossing, algorithmism, Man-> Machine -> Man, as an engineer for sound while being a jazz bases as a musician. and I'm going to think about the development of the next music with a view to computer simulation and technical trends project.The form of activity is from DJ, solo performance to the band.
+You can check my activity at follow bellow.
 
+* [youtube](https://www.youtube.com/channel/UCZSPyPrGHfokHw_ywxdZLAg)
+* [soundcloud](https://soundcloud.com/dropcontrol/)
 
-* 2017/3: [dropcontrol/QUINTET](https://www.youtube.com/watch?v=2SS6UumYiyw&t=2139s)   
-Featuring: アルトサックス：津上研太、テナーサックス：塙健介、ベース：永松歩、ドラム：吉島智仁。  
-Guest ソプラノサックス：クマムラゴウスケ  
-VJ:さのかずや
-* 2017/7: [dropcontrol/DUO+1](https://www.youtube.com/watch?v=81oXx8oXbtI&t=145s)   
-Featuring: ドラム：田中教順、アルトサックス：井上朋子  
-VJ:[永松渉](http://ayumu-nagamatsu.com)  
-* 2017/9: dropcontrol/TRIO  
-Featuring: ドラム：吉島智仁、キーボード：村北泰規  
-VJ: 4545.jp
+2016年から始動した自身の主宰するex-Jazzプロジェクト。音楽家としてジャズ基調でありながらもジャンル横断、アルゴリズミック、Man->Machine->Manを主題に置きつつも、エンジニアとしてコンピューターシミュレーションや技術的動向を視野に入れながら次の音楽の展開を考える為のプロジェクト。活動の形態はDJ、ソロパフォーマンスからバンドまで。その為メンバーは固定せず流動的。編成によって /DUO /TRIO など呼称にpostfixを付けて活動。現在までの活動は以下等を参照。
+
+* [youtube](https://www.youtube.com/channel/UCZSPyPrGHfokHw_ywxdZLAg)
+* [soundcloud](https://soundcloud.com/dropcontrol/)
 
 ### Contact
+
+If you have anykind of offer(conposing, mixing, mastering, perfoming), feel free to email me to yamato@gmail.com .
 
 制作(楽曲制作、ミックス/マスタリング、インスタレーション作品制作、エンジニアリング、撮影等)や出演オファーなどは、yamato@gmail.com まで。
 
