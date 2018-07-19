@@ -8,11 +8,11 @@ permalink: /works/
 
 ### 2018/Jan: Master's Works and Theses at IAMAS
 
-I was researching about "Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience" from 2016 to 2018. Finaly, I made one master's works and video and one master's theses.
+I was researching about "**Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience**" from 2016 to 2018. Finaly, I made one master's works and video and one master's theses.
 
 #### About Master's Works.
 
-My master's works is namaed "Music for multilayered temporal structures". It have a 3 peices of score as known as jazz style "lead sheet" and instruction about "How to play each songs for musician". you can read that follow URL.
+My master's works is namaed "**Music for multilayered temporal structures**". It have a 3 peices of score as known as jazz style "lead sheet" and instruction about "How to play each songs for musician". you can read that follow URL.
 
 * [Japanese Version is Here](https://drive.google.com/file/d/1-L03xHCOUF6yZhvX4Bmkz-GtfrdR_0x8/view)
 * [English Version is Here](https://drive.google.com/file/d/1bUWBULipnMCDW39T08ccRaGEZsjCWOUq/view)
@@ -23,7 +23,7 @@ And I had take video for the experiment of how the musician would actually play 
 
 #### About Master's theses
 
-And I have Already shared my master's theses "Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience" via github. I introduce English version of my master's theses abstract here.
+And I have Already shared my master's theses "**Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience**" via github. I introduce English version of my master's theses abstract here.
 
 > This research deals with two subjects. One is about the attempt to create music using two or more tempos in a specific structure. The other concerns the possibility of embodying music for audiences and performers.  
 >
