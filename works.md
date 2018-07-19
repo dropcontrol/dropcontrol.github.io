@@ -8,7 +8,7 @@ permalink: /works/
 
 ### 2018/Jan: Master's Works and Theses at IAMAS
 
-I started to researching about "Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience". Finaly, I made one master's works and video and one master's theses.
+I was researching about "Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience" from 2016 to 2018. Finaly, I made one master's works and video and one master's theses.
 
 #### About Master's Works.
 
@@ -39,4 +39,4 @@ You can read my master's theses follow URL (Japanese version only. English versi
 
 * [多層時間構造による音楽創造の試みとその身体化の可能性 - Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience](https://github.com/dropcontrol/IAMAS-Resarch-LaTex-Format/raw/master/iamas_yamato.pdf)
 
-If you have any kind of interests, comments, and question, feel free to contact me. 
+If you have any kind of interests, comments, and question, feel free to contact me.
