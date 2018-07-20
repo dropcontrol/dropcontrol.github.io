@@ -14,8 +14,8 @@ I was researching about "**Attempt to create music with multilayered temporal st
 
 My master's works is namaed "**Music for multilayered temporal structures**". It have a 3 peices of score as known as jazz style "lead sheet" and instruction about "How to play each songs for musician". you can read that follow URL.
 
-* [Japanese Version is Here](https://drive.google.com/file/d/1-L03xHCOUF6yZhvX4Bmkz-GtfrdR_0x8/view)
-* [English Version is Here](https://drive.google.com/file/d/1bUWBULipnMCDW39T08ccRaGEZsjCWOUq/view)
+* [Japanese Version is Here](https://drive.google.com/file/d/1bUWBULipnMCDW39T08ccRaGEZsjCWOUq/view)
+* [English Version is Here](https://drive.google.com/file/d/1-L03xHCOUF6yZhvX4Bmkz-GtfrdR_0x8/view)
 
 And I had take video for the experiment of how the musician would actually play such a song. You can watch below. This recording was that each musicians NEVER USE CLICK for keeping rhythm. Musicians take corabolate for understanding strucures of my concept via instruction at my works.This video is result of Musicians had take cooperation for understanding structures of my concept via instruction at my works.
 

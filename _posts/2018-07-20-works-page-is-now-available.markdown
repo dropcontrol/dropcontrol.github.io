@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Works page is now avalable."
+title: "Works page is now available."
 date: "2018-07-20 06:44:22 +0900"
 ---
 
