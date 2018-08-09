@@ -1,0 +1,13 @@
+---
+layout: post
+title: "ドメイン名変更のお知らせ-change domain name for this website"
+date: "2018-08-09 09:15:03 +0900"
+---
+
+本日付けで長らく使ってきたdropcontrol.comからhiroshiyamato.comにドメイン名を変更します。活動はdropcontrol名義でも続けますが、個人ウェブサイトのドメイン名は以後は、
+
+[http://hiroshiyamato.com](http://hiroshiyamato.com)
+
+になります。のでよろしくお願いします。
+
+Today, I annouce about that my official website's domain name was chaged. Of course, I will continue dropcontrol ex-Jazz Project, but name of my official website is [http://hiroshiyamato.com](http://hiroshiyamato.com). stay tune and thank you!!
