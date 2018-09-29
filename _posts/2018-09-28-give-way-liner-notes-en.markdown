@@ -6,6 +6,8 @@ date: "2018-09-28 13:12:05 +0900"
 
 **This contents is liner notes about "GIVE WAY" as new album that released at 9/28/2018. You can hear this album follow [link](https://amu.se/album/dropcontrol-give-way) at Music Streming Services as [Apple Music](https://itunes.apple.com/jp/album/give-way-feat-hiroshi-yamato/1436711712), [Spotify](https://open.spotify.com/album/4tb9sYUWMAmHDyGwnCyXu2) and others.**
 
+![Coverart](/images/coverart-give-way.png)
+
 This Album titled “GIVE WAY” is DUO Album made by Guitar and Piano. Although, Guitar was played by human, but, Piano was Played by AI named “PerformaceRNN ([https://magenta.tensorflow.org/performance-rnn](https://magenta.tensorflow.org/performance-rnn ))” made by  Curtis Hawthorne ( github: cghawthorne ,  Twitter: @fjord41 ) and Nikhil Thorat ( github: nsthorat , Twitter: @nsthorat ). It has 8 tracks. detail is 7 tracks who played by “Human and AI”, and 1 track who played by “Human and Human”.
 
 So, why I made such like this album? It’s take advantage 2 things, as loosely.First one is "Manifesto of Artificial Intelligence Art and Aesthetics” ([https://www.aloalo.co.jp/ai/emanifesto.html](https://www.aloalo.co.jp/ai/emanifesto.html)) that written by Hideki Nakazawa.

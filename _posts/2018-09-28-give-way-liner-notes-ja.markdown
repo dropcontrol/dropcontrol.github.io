@@ -6,6 +6,8 @@ date: "2018-09-28 13:11:20 +0900"
 
 **この文章は2018/9/28にリリースされたアルバム"GIVE WAY"のライナーノーツです。音源は[こちらのリンク](https://amu.se/album/dropcontrol-give-way)から、[Apple Music](https://itunes.apple.com/jp/album/give-way-feat-hiroshi-yamato/1436711712)や[Spotify](https://open.spotify.com/album/4tb9sYUWMAmHDyGwnCyXu2)といった各種配信サービスで聴くことができます。**
 
+![Coverart](/images/coverart-give-way.png)
+
 “GIVE WAY” (道を譲れ)というタイトルのこのアルバムは、ギターとピアノのデュオアルバムです。と言ってもギターは人間が演奏していますが、ピアノはCurtis Hawthorne ( github: cghawthorne ,  Twitter: @fjord41 ) と、Nikhil Thorat ( github: nsthorat , Twitter: @nsthorat )の両名によって制作された”PerformanceRNN ([https://magenta.tensorflow.org/performance-rnn](https://magenta.tensorflow.org/performance-rnn ))”というAIによって演奏されています。このアルバムには8曲収録されていますが、そのうち7曲は「人間とAI」によって演奏され、1曲は「人間と人間」によって演奏されています。
 
 なぜ、このようなアルバムを制作したか? というと、それは緩く二つの事柄が発端になっています。一つは中ザワヒデキ氏の「人工知能美学芸術宣言」 ([https://www.aloalo.co.jp/nakazawa/2016/0501b_j.html](https://www.aloalo.co.jp/nakazawa/2016/0501b_j.html))です。この冒頭で氏は、
