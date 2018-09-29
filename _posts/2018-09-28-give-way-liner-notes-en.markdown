@@ -63,7 +63,7 @@ Hiroshi Yamato / dropcontrol
 7. talk with human
 8. talk with AI #7
 
-##CREDIT:
+## CREDIT:
 PerformanceRNN made by Curtis Hawthorn, Nikhil Thorat on Piano (Track1-6, 8)
 Risako Morita on Piano (Track7)
 Kota Tsumagari: Mixing, Mastering Enginner.
