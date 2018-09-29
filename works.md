@@ -22,4 +22,4 @@ Linernotes is here : [ja](/2018/09/28/give-way-liner-notes-ja.html) / [en](/201
 
 I was researching about "**Attempt to create music with multilayered temporal structures and possibility of embodiments for player and audience**" from 2016 to 2018. Finaly, I made one master's works and video and one master's theses.
 
-See more detail is [here](http://hiroshiyamato.com/2018/09/25/masters-works-and-theses-at-iamas.html)
+See more detail is [here](/2018/09/25/masters-works-and-theses-at-iamas.html)

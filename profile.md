@@ -31,11 +31,15 @@ In addition, I studied guitar with Ginji Ogawa  and jazz guitar with Ichino Moto
 "The ex-Jazz project" owned by myself started in 2016. I keeping the theme of genre crossing, algorithmism, Man-> Machine -> Man, as an engineer for sound while being a jazz bases as a musician. and I'm going to think about the development of the next music with a view to computer simulation and technical trends project.The form of activity is from DJ, solo performance to the band.
 You can check my activity at follow bellow.
 
+* [Apple Music](https://itunes.apple.com/jp/artist/dropcontrol/1419711298)
+* [Spotify](https://open.spotify.com/artist/5NULQwPLzqwf2AAgZv3HGt)
 * [youtube](https://www.youtube.com/channel/UCZSPyPrGHfokHw_ywxdZLAg)
 * [soundcloud](https://soundcloud.com/dropcontrol/)
 
 2016年から始動した自身の主宰するex-Jazzプロジェクト。音楽家としてジャズ基調でありながらもジャンル横断、アルゴリズミック、Man->Machine->Manを主題に置きつつも、エンジニアとしてコンピューターシミュレーションや技術的動向を視野に入れながら次の音楽の展開を考える為のプロジェクト。活動の形態はDJ、ソロパフォーマンスからバンドまで。その為メンバーは固定せず流動的。編成によって /DUO /TRIO など呼称にpostfixを付けて活動。現在までの活動は以下等を参照。
 
+* [Apple Music](https://itunes.apple.com/jp/artist/dropcontrol/1419711298)
+* [Spotify](https://open.spotify.com/artist/5NULQwPLzqwf2AAgZv3HGt)
 * [youtube](https://www.youtube.com/channel/UCZSPyPrGHfokHw_ywxdZLAg)
 * [soundcloud](https://soundcloud.com/dropcontrol/)
 

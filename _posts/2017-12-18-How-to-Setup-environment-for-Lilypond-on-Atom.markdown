@@ -21,7 +21,7 @@ categories: blog
 
 Lilypondは "LilyPond is a music engraving program, devoted to producing the highest-quality sheet music possible. It brings the aesthetics of traditionally engraved music to computer printouts. LilyPond is free software and part of the GNU Project." とあるように「楽譜制作のソフトウェア」であり「GNUプロジェクトのfree software」だと[公式ウェブサイト](http://lilypond.org)に書いてあります。
 
-それだけだとちょっと説明が足らないので、もうすこし説明すると世の中にはFinaleとかSiberiusとかNotionとか他にも色々な譜面書きソフトがあります。なんか今こう書いてみると譜面書きソフトがそんなにあるってそんな需要がある市場なんだろうか、、、という素朴な疑問も生れますが(笑)それらのソフトとLilypondが一番ちがうのはLilypondは先日の[LaTexの記事](http://dropcontrol.com/blog/2017/12/02/how-to-setup-evironment-for-latex-on-atom-with-live-preview.html)で取り上げたLaTexと同じ感じで「楽譜をマークアップして構造的にテキストで記述出来る」という点にあります。と言われてもあんまりピンこない、という人は公式サイトの[テキスト入力](http://lilypond.org/text-input.ja.html)の説明のページとか見ていただけると良いと思います。
+それだけだとちょっと説明が足らないので、もうすこし説明すると世の中にはFinaleとかSiberiusとかNotionとか他にも色々な譜面書きソフトがあります。なんか今こう書いてみると譜面書きソフトがそんなにあるってそんな需要がある市場なんだろうか、、、という素朴な疑問も生れますが(笑)それらのソフトとLilypondが一番ちがうのはLilypondは先日の[LaTexの記事](/blog/2017/12/02/how-to-setup-evironment-for-latex-on-atom-with-live-preview.html)で取り上げたLaTexと同じ感じで「楽譜をマークアップして構造的にテキストで記述出来る」という点にあります。と言われてもあんまりピンこない、という人は公式サイトの[テキスト入力](http://lilypond.org/text-input.ja.html)の説明のページとか見ていただけると良いと思います。
 
 で、使い慣れるとこれがもうマウスでポチポチみたいなGUIのソフトに比べて圧倒的に早く楽譜が記述できます。しかもあたりまえですが手書きと違って綺麗(笑)な楽譜が出来上がります。今回、IAMASで僕が研究してる途中で作った楽譜や修士作品の楽譜なんかは98%はLilypondです(あとの1%は手書き、もう1%はLogicの楽譜出力機能)。
 

@@ -40,12 +40,12 @@ At last time, one more thing about this album that story as "Music". I think tha
 Of cause, I never say "this album is equal as that two album". Basically, it is better that I need to say as a lie even so, maybe. But, so many player who make better music than me will become in future, and I want that situation. but, just now, I can be rephrased bellow sentence bt using there album context.
 
 
-On Concept of “Undercurrent”
-And using context of “Jazz from Hell”
-Just now
-If Guitarist will playing,
-Who does he pick out co-player?
-What does they make?
+On Concept of “Undercurrent”  
+And using context of “Jazz from Hell”  
+Just now  
+If Guitarist will playing,  
+Who does he pick out co-player?  
+What does they make?  
 
 In originally, this album’s basic plan was try to make “Ambient Album”, so if you have hear like as ambient music, you make me feel happy, too. In a same time, when I done to such a trial, I feel that music of this album is able to think and bring back to nowadays about relation of between human, and between  human and computer in the past.
 

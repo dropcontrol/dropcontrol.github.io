@@ -15,7 +15,7 @@ categories: event
 大和比呂志(やまと ひろし)<br />
 ギタリスト、テナーサックス奏者、音楽家<br />
 ギター演奏を小川銀次、市野元彦に、音楽理論、テナーサックスを菊地成孔に師事。現在はIAMASに在学。三輪眞弘に師事しポリ/クロスリズムに着目した研究を進めている。ex-Jazzプロジェクト"dropcontrol"を主宰。今回はドラムに吉島智仁(よしじま ともひと)、キーボードに村北泰規(むらきた やすのり)を迎え"dropcontrol/TRIO”として演奏。<br />
-http://www.dropcontrol.com
+http://hiroshiyamato.com
 </p>
 
 <p>

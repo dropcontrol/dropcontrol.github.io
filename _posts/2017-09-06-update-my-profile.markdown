@@ -7,4 +7,4 @@ categories: information
 
 現在までのプロフィールを更新しました。以下のURLか上のメニューの「Profile」から見ることが出来ます。まだ情報足す予定ですが一旦ここまで、、、。
 
-[http://dropcontrol.com/profile/](http://dropcontrol.com/profile/)
+[http://hiroshiyamato.com/profile/](/profile/)
