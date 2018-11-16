@@ -12,8 +12,8 @@ We will perform at 21:30. And this event's line up of live performance is really
 
 See you in there!!
 
-[EVENT WEB at CIRCUS TOKYO](http://circus-tokyo.jp/event/algorave-x-nxpc-lab-at-tokyo-iamas/)
-[EVENT WEB at Algorave Tokyo](https://algorave.tokyo/20181118-algorave-tokyo/)
+- [EVENT WEB at CIRCUS TOKYO](http://circus-tokyo.jp/event/algorave-x-nxpc-lab-at-tokyo-iamas/)
+- [EVENT WEB at Algorave Tokyo](https://algorave.tokyo/20181118-algorave-tokyo/)
 
 次の日曜(2018/11/18)に、東京渋谷のCircus Tokyoで行なわれる"Algorave Tokyo"に出演します。ウェブでのクレジットは"Hiroshi Yamato"となっていますが、dropcontro + Kota Tsumagariの２人で出演します。
 
