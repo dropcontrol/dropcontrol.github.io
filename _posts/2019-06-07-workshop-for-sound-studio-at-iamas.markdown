@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Workshop for "Sound studio" at IAMAS"
+title: "Workshop for \"Sound studio\" at IAMAS"
 date: "2019-06-07 09:13:46 +0900"
 ---
 

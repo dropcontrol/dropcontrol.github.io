@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exhibit to live performance at NxPC.Live vol.36\"
+title: "Exhibit to live performance at NxPC.Live vol.36"
 date: "2019-06-07 10:00:31 +0900"
 ---
 
