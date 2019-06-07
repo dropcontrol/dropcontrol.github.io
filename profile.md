@@ -28,7 +28,7 @@ In addition, I studied guitar with Ginji Ogawa  and jazz guitar with Ichino Moto
 
 ### Lecture / Workshop
 
-* 情報科学芸術大学院大学 特別非常勤講師 (「サウンドスタジオ演習」, 2019)
+* [情報科学芸術大学院大学 特別非常勤講師 (「サウンドスタジオ演習」, 2019)](http://hiroshiyamato.com/2019/06/07/workshop-for-sound-studio-at-iamas.html)
 
 ### What's dropcontrol
 
