@@ -26,9 +26,9 @@ In addition, I studied guitar with Ginji Ogawa  and jazz guitar with Ichino Moto
 
 また、ギター演奏全般を[小川銀次](http://ginjiogawa.co.uk/frame.htm)、ジャズギターを[市野元彦](http://motohikoichino.com)に師事。また音楽理論、テナーサックスを[菊地成孔](https://www.kikuchinaruyoshi.net)に師事する。菊地成孔主宰の「ペンギン音楽大学」で制作された「PCM15 BEAT MUSICS/ペンギン音楽大学院2015年度ブラックミュージッククラス卒業制作集」(Sony Music Artists/TABOOレーベルから2016/4/26にリリース。[amazon](http://amzn.to/2vJLg15), [iTunes](https://itunes.apple.com/jp/album/pcm15-beat-musics-%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6%E9%99%A22015%E5%B9%B4%E5%BA%A6%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%82%B9%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C%E9%9B%86/id1106801244), [Line Music](https://music.line.me/album/mb0000000000c0b932)等でダウンロード販売、配信中)にビートメイカーとし楽曲を提供。
 
-### 教育実績
+### Lecture / Workshop
 
-* 情報科学芸術大学院大学 特別非常勤講師
+* 情報科学芸術大学院大学 特別非常勤講師 (「サウンドスタジオ演習」, 2019)
 
 ### What's dropcontrol
 
