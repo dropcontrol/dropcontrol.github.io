@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ALMF Event "The Physicality of Music Theory""
+title: "「音楽理論の身体性」と言うイベントを行います"
 date: "2021-08-18 12:26:08 +0900"
 ---
 
