@@ -4,6 +4,5 @@ _site
 .ruby-version
 vendor
 .bundle
-Gemfile*
 
 .DS_Store
