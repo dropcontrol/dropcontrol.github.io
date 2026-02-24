@@ -3,9 +3,9 @@
 Translate Jekyll posts using DeepL API Free.
 
 Usage:
-  python scripts/translate.py                           # Translate all untranslated posts
-  python scripts/translate.py _posts/specific-file.md   # Translate a specific file
-  python scripts/translate.py --dry-run                  # Preview without API calls
+  python scripts/translate.py                                    # Translate all untranslated posts
+  python scripts/translate.py _posts/2017-09-05-example.markdown # Translate a specific file
+  python scripts/translate.py --dry-run                           # Preview without API calls
 """
 
 import argparse
@@ -13,6 +13,8 @@ import glob
 import os
 import re
 import sys
+import tempfile
+import shutil
 import unicodedata
 
 import requests
@@ -34,14 +36,18 @@ def get_api_key():
 
 
 def detect_language(text):
-    """Detect if text is primarily Japanese or English using Unicode ranges."""
+    """Detect if text is primarily Japanese or English using Unicode character counts.
+
+    Returns 'en' when counts are equal or when no letter characters are found.
+    Non-CJK, non-Latin scripts (e.g., Korean, Arabic) count as neither and resolve to 'en'.
+    """
     ja_count = 0
     en_count = 0
     for char in text:
         cat = unicodedata.category(char)
         if cat.startswith("L"):
             cp = ord(char)
-            # Hiragana, Katakana, CJK Unified Ideographs
+            # Hiragana, Katakana, CJK Unified Ideographs, CJK Extension A
             if (0x3040 <= cp <= 0x309F or
                 0x30A0 <= cp <= 0x30FF or
                 0x4E00 <= cp <= 0x9FFF or
@@ -49,6 +55,15 @@ def detect_language(text):
                 ja_count += 1
             elif cp < 0x0100:
                 en_count += 1
+
+    total = ja_count + en_count
+    if total == 0:
+        raise ValueError(
+            "Could not detect language: no letter characters found in post body."
+        )
+    if total < 20:
+        print(f"    Warning: language detection confidence is low ({total} letter chars found).")
+
     return "ja" if ja_count > en_count else "en"
 
 
@@ -76,7 +91,7 @@ def restore_code_blocks(text, placeholders):
 
 
 def translate_text(text, source_lang, target_lang, api_key):
-    """Translate text using DeepL API Free."""
+    """Translate text using DeepL API Free. Raises RuntimeError on failure."""
     # Protect code blocks
     protected_text, placeholders = protect_code_blocks(text)
 
@@ -87,15 +102,28 @@ def translate_text(text, source_lang, target_lang, api_key):
         "target_lang": target_lang.upper(),
     }
 
-    # DeepL uses EN-US / EN-GB for target
+    # DeepL requires a regional variant for English target; default to EN-US
     if target_lang.upper() == "EN":
         data["target_lang"] = "EN-US"
 
-    response = requests.post(DEEPL_API_URL, headers=headers, data=data)
-    response.raise_for_status()
+    try:
+        response = requests.post(DEEPL_API_URL, headers=headers, data=data, timeout=(10, 60))
+        response.raise_for_status()
+        result = response.json()
+    except requests.exceptions.Timeout:
+        raise RuntimeError("DeepL API request timed out")
+    except requests.exceptions.ConnectionError as e:
+        raise RuntimeError(f"Failed to connect to DeepL API: {e}")
+    except requests.exceptions.HTTPError:
+        raise RuntimeError(f"DeepL API returned error {response.status_code}: {response.text}")
+    except ValueError as e:
+        raise RuntimeError(f"DeepL API returned non-JSON response: {e}")
 
-    result = response.json()
-    translated = result["translations"][0]["text"]
+    translations = result.get("translations")
+    if not translations:
+        raise RuntimeError(f"DeepL API returned no translations. Response: {result}")
+
+    translated = translations[0]["text"]
 
     # Restore code blocks
     translated = restore_code_blocks(translated, placeholders)
@@ -109,13 +137,20 @@ def parse_front_matter(content):
         return None, content
     fm_text = match.group(1)
     body = content[match.end():]
-    fm = yaml.safe_load(fm_text)
+    try:
+        fm = yaml.safe_load(fm_text)
+    except yaml.YAMLError as e:
+        raise ValueError(f"Malformed YAML front matter: {e}") from e
+    if not isinstance(fm, dict):
+        return None, content
     return fm, body
 
 
 def build_front_matter(fm):
-    """Rebuild front matter YAML string preserving key order."""
-    # Desired key order
+    """Rebuild front matter YAML string using a canonical key order.
+
+    Unknown keys are appended after the ordered set.
+    """
     key_order = [
         "layout", "title", "title_en", "title_ja",
         "date", "categories", "bilingual", "original_lang",
@@ -135,11 +170,20 @@ def build_front_matter(fm):
 
 
 def process_file(filepath, dry_run=False, api_key=None):
-    """Process a single Jekyll post file."""
+    """Translate a Jekyll post file in place using the DeepL API.
+
+    The file is overwritten with bilingual content. Skips files already marked bilingual: true.
+    Returns True if the file was processed, False if skipped.
+    """
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
 
-    fm, body = parse_front_matter(content)
+    try:
+        fm, body = parse_front_matter(content)
+    except ValueError as e:
+        print(f"  Skipping {filepath}: {e}")
+        return False
+
     if fm is None:
         print(f"  Skipping {filepath}: no front matter found")
         return False
@@ -149,7 +193,12 @@ def process_file(filepath, dry_run=False, api_key=None):
         return False
 
     # Detect original language
-    orig_lang = detect_language(body)
+    try:
+        orig_lang = detect_language(body)
+    except ValueError as e:
+        print(f"  Skipping {filepath}: {e}")
+        return False
+
     target_lang = "en" if orig_lang == "ja" else "ja"
 
     print(f"  {filepath}")
@@ -162,11 +211,10 @@ def process_file(filepath, dry_run=False, api_key=None):
         print(f"    [DRY RUN] Would translate body ({len(body)} chars)")
         return True
 
-    # Translate title
+    # Translate title and body
     translated_title = translate_text(title, orig_lang, target_lang, api_key)
     print(f"    Translated title: {translated_title}")
 
-    # Translate body
     translated_body = translate_text(body.strip(), orig_lang, target_lang, api_key)
     print(f"    Translated body ({len(translated_body)} chars)")
 
@@ -210,8 +258,22 @@ def process_file(filepath, dry_run=False, api_key=None):
 </div>
 """
 
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(new_fm + new_body)
+    new_content = new_fm + new_body
+
+    # Atomic write: write to temp file then rename
+    dir_name = os.path.dirname(os.path.abspath(filepath))
+    tmp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=dir_name, delete=False, suffix=".tmp"
+        ) as tmp:
+            tmp.write(new_content)
+            tmp_path = tmp.name
+        shutil.move(tmp_path, filepath)
+    except OSError as e:
+        if tmp_path and os.path.exists(tmp_path):
+            os.unlink(tmp_path)
+        raise RuntimeError(f"Failed to write {filepath}: {e}")
 
     print(f"    Saved: {filepath}")
     return True
@@ -242,12 +304,23 @@ def main():
     print(f"Processing {len(files)} file(s)...\n")
 
     translated_count = 0
+    failed_files = []
     for filepath in files:
-        if process_file(filepath, dry_run=args.dry_run, api_key=api_key):
-            translated_count += 1
+        try:
+            if process_file(filepath, dry_run=args.dry_run, api_key=api_key):
+                translated_count += 1
+        except Exception as e:
+            print(f"  ERROR processing {filepath}: {e}")
+            failed_files.append(filepath)
         print()
 
     print(f"Done. {translated_count} file(s) {'would be ' if args.dry_run else ''}translated.")
+    if failed_files:
+        print(f"\nFailed to process {len(failed_files)} file(s):")
+        for f in failed_files:
+            print(f"  - {f}")
+        print("These files were not modified. Check the errors above and retry.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

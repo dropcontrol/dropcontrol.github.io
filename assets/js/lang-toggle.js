@@ -2,11 +2,25 @@
   "use strict";
 
   var STORAGE_KEY = "preferred-lang";
-  var DEFAULT_LANG = "ja";
+
+  function storageAvailable() {
+    try {
+      var x = "__storage_test__";
+      localStorage.setItem(x, x);
+      localStorage.removeItem(x);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  var HAS_STORAGE = storageAvailable();
 
   function getPreferredLang() {
-    var stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) return stored;
+    if (HAS_STORAGE) {
+      var stored = localStorage.getItem(STORAGE_KEY);
+      if (stored) return stored;
+    }
     var browserLang = (navigator.language || navigator.userLanguage || "").toLowerCase();
     return browserLang.startsWith("ja") ? "ja" : "en";
   }
@@ -43,9 +57,11 @@
   }
 
   function toggleLang() {
-    var current = localStorage.getItem(STORAGE_KEY) || getPreferredLang();
+    var current = getPreferredLang();
     var next = current === "ja" ? "en" : "ja";
-    localStorage.setItem(STORAGE_KEY, next);
+    if (HAS_STORAGE) {
+      localStorage.setItem(STORAGE_KEY, next);
+    }
     applyLang(next);
   }
 

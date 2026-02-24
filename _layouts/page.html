@@ -17,10 +17,10 @@ layout: default
     {%- else -%}
       <h1 class="post-title">{{ page.title | escape }}</h1>
     {%- endif -%}
-    {%- if page.bilingual -%}
+    {%- if page.bilingual and page.original_lang -%}
       {%- if page.original_lang == "en" -%}
         <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">日本語で読む</button>
-      {%- else -%}
+      {%- elsif page.original_lang == "ja" -%}
         <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">Read in English</button>
       {%- endif -%}
     {%- endif -%}

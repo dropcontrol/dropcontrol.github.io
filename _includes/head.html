@@ -9,6 +9,8 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   <style>
+    /* Hide English content by default to prevent flash of both languages */
+    [lang="en"] { display: none; }
     .lang-toggle-btn {
       display: inline-block;
       padding: 4px 12px;
