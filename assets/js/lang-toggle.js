@@ -49,9 +49,8 @@
     applyLang(next);
   }
 
-  // Expose for button onclick and console debugging
+  // Expose only what button onclick handlers need
   window.toggleLang = toggleLang;
-  window.applyLang = applyLang;
 
   // Apply on DOM ready
   if (document.readyState === "loading") {

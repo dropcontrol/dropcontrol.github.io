@@ -80,20 +80,18 @@ def translate_text(text, source_lang, target_lang, api_key):
     # Protect code blocks
     protected_text, placeholders = protect_code_blocks(text)
 
+    headers = {"Authorization": f"DeepL-Auth-Key {api_key}"}
     data = {
-        "auth_key": api_key,
         "text": protected_text,
         "source_lang": source_lang.upper(),
         "target_lang": target_lang.upper(),
-        "tag_handling": "html",
-        "ignore_tags": "code,pre",
     }
 
     # DeepL uses EN-US / EN-GB for target
     if target_lang.upper() == "EN":
         data["target_lang"] = "EN-US"
 
-    response = requests.post(DEEPL_API_URL, data=data)
+    response = requests.post(DEEPL_API_URL, headers=headers, data=data)
     response.raise_for_status()
 
     result = response.json()
@@ -230,7 +228,12 @@ def main():
     if args.files:
         files = args.files
     else:
-        files = sorted(glob.glob("_posts/*.markdown") + glob.glob("_posts/*.md"))
+        repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        posts_dir = os.path.join(repo_root, "_posts")
+        files = sorted(
+            glob.glob(os.path.join(posts_dir, "*.markdown"))
+            + glob.glob(os.path.join(posts_dir, "*.md"))
+        )
 
     if not files:
         print("No files found to process.")

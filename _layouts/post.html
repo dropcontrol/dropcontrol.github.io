@@ -27,7 +27,11 @@ layout: default
       {%- endif -%}
     </p>
     {%- if page.bilingual -%}
-      <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">Read in English</button>
+      {%- if page.original_lang == "en" -%}
+        <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">日本語で読む</button>
+      {%- else -%}
+        <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">Read in English</button>
+      {%- endif -%}
     {%- endif -%}
   </header>
 
