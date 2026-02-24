@@ -1,9 +1,14 @@
 ---
 layout: post
 title: "LilypondをAtomで使う環境作り"
+title_en: "Setting Up Lilypond on Atom"
 date: "2017-12-18 07:00:00 +0900"
 categories: blog
+bilingual: true
+original_lang: ja
 ---
+
+<div lang="ja" markdown="1">
 
 ※ この記事は[IAMAS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/iamas)の12月18日の記事の予定地です。
 
@@ -50,3 +55,55 @@ Lilypondは "LilyPond is a music engraving program, devoted to producing the hig
 そこまで行けばあとは譜面を書きながらひたすら"ctrl+alt+l"する度にそのPDFが更新されます。保存と同時にライブプレビューされると便利だよなぁ、とか思った人もいると思いますが、Markdownなんかと違って譜面の規模が大きくなるとコンパイルにけっこう時間が掛ったりするので、基本的にこの仕様で便利に使えると思います。ジャズのリードシートくらいなら一瞬でコンパイルしてくれるのでなにも問題ないです(笑)。
 
 というわけで、特に画像もなく文章だけだとあまり伝わり難いかな、、と思いますが、ちょっと狂った譜面の書き方は別途修士研究のアレコレとあわせて書きたいと思います(笑)。というか論文でも触れるところなのでどこまで書いちゃっていいのか微妙ではありますが。。。次回に続く!!(のか?)。
+
+</div>
+
+<div lang="en" markdown="1">
+
+*Note: This post was written for the [IAMAS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/iamas), December 18th.*
+
+Sorry for another lightweight environment setup topic. This time I'll write about how to use Lilypond -- the open-source music notation tool that I personally consider the best -- within the Atom editor.
+
+## Agenda
+
+* What is Lilypond?
+* Installation and setup
+* How to use it
+
+Not exactly a grand agenda, I know...
+
+### What is Lilypond?
+
+As stated on the [official website](http://lilypond.org): "LilyPond is a music engraving program, devoted to producing the highest-quality sheet music possible. It brings the aesthetics of traditionally engraved music to computer printouts. LilyPond is free software and part of the GNU Project." In short, it is music notation software and free software under the GNU Project.
+
+To elaborate a bit more: there are many notation programs out there, such as Finale, Siberius, Notion, and others. Now that I list them out, I do wonder if there is really that much demand for notation software... But anyway, the biggest difference between those programs and Lilypond is that Lilypond lets you describe music scores structurally as text using markup -- similar to LaTex, which I covered in a [previous article](/blog/2017/12/02/how-to-setup-evironment-for-latex-on-atom-with-live-preview.html). If that still does not quite click, take a look at the [Text Input](http://lilypond.org/text-input.ja.html) page on the official site.
+
+Once you get used to it, you can write music notation dramatically faster compared to GUI software where you click around with a mouse. And of course, unlike handwritten scores, the output is clean and beautiful. About 98% of the scores I created during my research at IAMAS and for my master's thesis were made with Lilypond (the remaining 1% was handwritten, and another 1% came from Logic's score export feature).
+
+As for what exactly makes it so useful -- I plan to cover that in my master's thesis, which I'm currently writing. But in short, Lilypond can handle notation that the two major notation programs, Finale and Siberius, simply cannot. You can write truly unconventional scores. For example, you can break a line in the middle of a measure, even if it falls in the middle of a tuplet -- basically ignoring the usual notation taboos. It took me quite a while to figure that out, though. That said, a significant portion of the manual has been translated into Japanese, so for standard use cases the barrier to entry is not that high. If you have even a little programming experience, you should pick it up quickly.
+
+There are also handy commands for converting musicXML to Lilypond format, so you can export MIDI data created in Logic as musicXML, convert it, and then edit and format it in Lilypond. I have not tried it myself yet, but you can also export MIDI from Lilypond data, so it might be possible to set up a workflow where you write scores in Atom while checking the playback. (Though I have seen mentions that accurately playing back repeat signs and such can be a bit tricky.)
+
+Given how useful Lilypond is, naturally you would want to use your everyday editor, Atom, for the markup work. It is only human nature, so I looked into it. And sure enough, other people had the same idea -- there are Atom packages for LilyPond.
+
+### Installation and Setup
+
+As usual, these instructions are for macOS. Neither the installation nor the setup is particularly difficult. Download the macOS package for Lilypond from the official site mentioned above and install it normally.
+
+Next, install the following packages from Atom's package manager:
+
+* AtLilyPond ... Provides syntax highlighting for Lilypond
+* lilycompile ... Runs the Lilypond compiler from within Atom
+* pdf-view ... A PDF viewer
+
+That is basically all you need to install in Atom. I recommend going into lilycompile's Settings to configure the output file format (File Type) and where the output should be displayed (Opening Behavior).
+
+### How to Use It
+
+Create a file with the .ly extension (I personally associated this extension so that double-clicking opens it in Atom, because otherwise the Lilypond application launches instead), then press "ctrl+alt+l" (the last character is a lowercase L) to pass the file to the Lilypond compiler. If compilation fails, an error pops up (the error messages are not very detailed, so debugging syntax issues could be a bit of a struggle). When compilation succeeds, the output is displayed by default in a split pane on the right side of Atom.
+
+From there, you just keep writing your score and pressing "ctrl+alt+l" each time to update the PDF. Some of you might think it would be convenient to have a live preview on save, but unlike Markdown, compilation can take quite a while as scores grow larger, so this manual trigger approach actually works well in practice. For something like a jazz lead sheet, compilation is nearly instant, so there is no issue at all.
+
+So there you have it. I realize that without screenshots it may be hard to fully convey, but I plan to write about some of the more unconventional notation techniques alongside my master's research. Though since it will also appear in my thesis, I'm not entirely sure how much I should reveal here... To be continued!! (Maybe?)
+
+</div>

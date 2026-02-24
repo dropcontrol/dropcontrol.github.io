@@ -19,26 +19,38 @@ description: > # this means to ignore newlines until "baseurl:"
   ©2017 HIROSHI YAMATO
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hiroshiyamato.com"
 twitter_username: yamato
 github_username:  dropcontrol
+
+# Default OGP / Twitter Card image
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      image: /images/ogp-default.png
+
+twitter:
+  card: summary_large_image
 
 # Build settings
 markdown: kramdown
 theme: minima
+lang: ja
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 timezone: Asia/Tokyo
 future: false
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

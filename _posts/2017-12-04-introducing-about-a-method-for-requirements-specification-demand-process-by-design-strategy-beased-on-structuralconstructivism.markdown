@@ -1,9 +1,14 @@
 ---
 layout: post
 title: "論考「デザインにおける要求定義プロセスへの構造構成主義的デザイン論の適用」の紹介"
+title_en: "Introducing a Paper on Applying Structural Constructivist Design Theory to Requirements Definition in Design"
 date: "2017-12-04 07:00:00 +0900"
 categories: blog
+bilingual: true
+original_lang: ja
 ---
+
+<div lang="ja" markdown="1">
 
 ※ この記事は[IAMAS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/iamas)の12月4日の記事です。
 
@@ -70,3 +75,75 @@ categories: blog
 最後に、この論考の執筆にあたっては、まず合同会社アライアンス・ポート(現・アライアンス・ポート株式会社)の仲間達、またクライアント様に感謝します。みなさんと一緒に仕事をした経験がこういう形に残っているのは僕の誇りです。また、共著者の山辺さん小川さんに感謝します。２人と仕事をしなければこういうことを書くことも「構造構成主義」にピンと来ることもなかったかもしれないね。あと今IAMASで研究してることもね。そして最後に常盤拓史くんに最大の謝辞を送ります。彼のお陰で始めて「学会に投稿する論文を書く」という機会ができましたし、今でもこういう形で残っていることで会社の中で自分が文字通り七転八倒してたことが無駄なことじゃなかった、無駄なことなんて一つもなかった、と思うことができます。また呑みにいこうね。
 
 というわけで「軽く書く」というつもりが結構な分量になってしまいましたが、以上で論考「デザインにおける要求定義プロセスへの構造構成主義的デザイン論の適用」の紹介を終ります。いつかどこかの誰かの役に立ちますように、、、
+
+</div>
+
+<div lang="en" markdown="1">
+
+*This post is part of the [IAMAS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/iamas), published on December 4th.*
+
+I wanted to write a lighter article this time. In this post, I would like to introduce a paper -- or rather, since it was rejected, let us call it a treatise -- titled "Applying Structural Constructivist Design Theory to the Requirements Definition Process in Design." I submitted it to the Japanese Cognitive Science Society while I was serving as representative of Alliance Port LLC (now Alliance Port Inc.), a company I co-founded. (I have since left the company. Alliance Port itself has also changed hands from co-founder Yamabe and became a subsidiary of Colsis Inc. > [News release](http://www.allianceport.jp/news/2017/11/ap-colsis.html)). The paper was, shall we say, gloriously rejected. I have included a link to the PDF at the end, so if you want to jump straight to reading it, scroll down.
+
+## Agenda
+
+Here is what this article covers:
+
+* The background behind this treatise
+* A brief overview of Structural Constructivism
+* What the treatise contains
+* What design processes emerged after this treatise
+* Where to find the treatise, and acknowledgments
+
+### Background of This Treatise
+
+Let me start with the background. This treatise was probably written around 2010. At the time, I was mainly doing web development work. My notable projects included websites for public cultural institutions such as YCAM, TWS, and the Asahi Art Festival, and the crowning achievement was working on the website for the National Museum of Emerging Science and Innovation (Miraikan). But was everything going smoothly? Not quite -- especially in the early days. I was an engineer, while the rest of the staff were designers (though Yamabe had talent in both areas). Put simply, our approaches to work and how we understood it were quite different. Even something as basic as salary expectations differed between us. So friction arose regularly, and I kept thinking, "Why can't we understand each other?" and "How can engineers and designers collaborate better?" Then one day, a friend who was an editor asked me to come photograph the first general meeting of a philosophical movement called "Structural Constructivism." What I heard there was fascinating, and I thought, "This could provide a framework for engineers and designers to share what they don't understand about each other and collaborate together." That was the starting point.
+
+After that, I spent about a year at the company talking about Structural Constructivism and its applied qualitative research method called "SCQRM" (pronounced "scrum"), which also appears in the treatise. Because the theory came with a set of practical methods, we were able to try several of them in practice -- things like "theorization methods," "interview analysis," and adapting these for requirements specification documents. The result was a consensus that "this is actually usable in the field," and so we decided to write it all up. That is how this treatise came to be.
+
+### A Brief Look at Structural Constructivism
+
+Let me preface this by saying I have not been keeping up with the latest developments in Structural Constructivism, so what follows reflects my own understanding. That said, I still call myself a "Structural Constructivist" (and to be precise, I am both a "Structural Constructivist" and an "Adlerian psychologist" -- though I should note I am not an expert in either field. I do believe, however, that Adlerian psychology can cover some of the weaknesses of Structural Constructivism, but that is a longer discussion for another time). It is a philosophy that has profoundly influenced my principles and way of thinking.
+
+The best source on Structural Constructivism is [What Is Structural Constructivism: Principles of Next-Generation Human Science (Saijo Takeo, 2005)](http://amzn.to/2BtHPKe), though I must admit it is not the easiest read (and the horizontal text layout does not help). So let me give a very brief explanation.
+
+Structural Constructivism is a meta-philosophy systematized by Saijo Takeo. It draws on Ikeda Kiyohiko's Structuralist Philosophy of Science (available in [Adventures in Structuralist Philosophy of Science](http://amzn.to/2zInoZu) -- this book is very readable and interesting; I would recommend it over Sophie's World as an introduction to philosophy), Takeda Seiji's phenomenology, Husserl, Saussure, and others. Because Saijo himself is a psychologist, the framework was originally conceived as a way to resolve "belief conflicts" that arise between clinical practice and research.
+
+"Belief conflict" -- illustrated well by Yoro Takeshi's book "The Wall of Fools" -- is essentially this: "People believe different things depending on their positions and interests. Moreover, everyone believes what they believe is correct. This creates mutual misunderstanding." Structural Constructivism addresses this through concepts such as "interest-relativity," "purpose-relativity," "body-relativity," and "practical constraints," focusing on "the phenomena that manifest for each party." By doing so, it lowers the level of understanding and enables both sides to "understand what they do not understand about each other" -- in simpler terms, it presents a method for making it easier to see things from the other person's perspective.
+
+Since these kinds of situations arise frequently, it is easy to imagine how such methods can be useful in many contexts. Once you grasp it, you realize that "the methods are well-organized" and "being a meta-philosophy makes it highly adaptable." As a result, it has been applied broadly, from medicine to marketing to social activism (though regarding the social activism applications, I personally believe that Saijo demonstrated the limits of Structural Constructivism rather than successfully applying it -- though what was actually achieved was still remarkable).
+
+I could write at length about this, but as I mentioned, I have not been following recent developments, so I will stop here. If you are interested, I encourage you to dig in. But I do recommend reading with the awareness that "every method has its limits," lest you fall into the trap of Structural Constructivism.
+
+### What the Treatise Contains
+
+With that background, let me describe the treatise itself. I was the primary author, though the person who properly organized it into an academic paper format was my colleague at the time, Tokiwa Takushi. If this treatise is readable at all, it is 100% thanks to his skill (which is why Tokiwa is listed as first author and I am last). I remember writing the zeroth draft (about 1.5 times the final length) in a single night and handing it to Tokiwa. Good times.
+
+So what does it actually say? In brief, the overall theme is "a proposed methodology for the requirements definition process in the early stages of design work." Specifically, it covers "Structural Constructivist Design," "a workshop that extends qualitative research methods and semi-structured interviews (called 'semi-theorized interviews' in the treatise) based on Structural Constructivism using facilitation graphic techniques," and actual case studies. For details, I recommend reading the introduction section of the treatise.
+
+The groundbreaking part of this treatise (if I may say so myself) is that it defines design through the lens of Structural Constructivism. Under "Structural Constructivist Design," if the method functions ideally, there are no "rework loops." How about that! Furthermore, rather than defining design as the designed artifact or the commonly discussed facilitation process, it positions "the practice of design as the formation of consensus among stakeholders surrounding the deliverable." While some might think "well, obviously" today, at the time this was quite a radical statement. In other words, it says: "Design is a snapshot of a particular moment, and that snapshot is determined by real-world constraints like budgets and consensus among stakeholders. Since a designed artifact can pursue infinite variations and qualities, you cannot define design by the artifact itself -- therefore, consensus-building itself is the essence of design." Nowadays, with so many workshop methodologies available, people vaguely think along these lines, but I have still never read anything else that states it this clearly (and I am sure I will get pushback from many quarters).
+
+To provide "scientific grounding" for this consensus-building, we introduced the qualitative research method "SCQRM" (actually a "modified SCQRM" -- you can understand why it can be modified by reading [Live Lecture: What Is Qualitative Research (SCQRM Basic Edition) (Saijo, 2007)](http://amzn.to/2zHiWKB)), and assembled it as a "method" using tools such as mind maps, facilitation graphics, and PMBOK. The treatise includes actual case studies and examples of model diagrams (also called "theorization"), so please refer to those sections to see what we actually did in practice.
+
+The treatise also includes comparisons with PMBOK, persona/scenario methods, and other approaches. Today, it would be worth comparing it with idea sketching as well. Regarding idea sketching, from the perspective of the definition of design in "Structural Constructivist Design," I have always felt that the weakness lies in the ambiguity of "interest, purpose, and body-relativity" and "practical constraints" within the "consensus-building process," and I have thought it would benefit from reinforcement in validating the legitimacy of ideas. (As it happens, a fellow IAMAS classmate who is a designer is conducting research that might complement this through their own unique process -- I am excited to see where it goes! Let us both keep working on our papers!)
+
+While the case studies deal only with websites, the range of application is broad. Looking back now, I cannot help but wonder "why did we submit this to the Cognitive Science Society?" But as a treatise on design that "arose from real-world experience rather than theory alone," if it can be of any help to someone who finds their way to a place like IAMAS, that would make me very happy as someone who has worked in the field of design.
+
+I cannot discuss this topic off the top of my head without re-reading the treatise, but it may be useful not only for artifact design but also for workshop design and various other contexts. If you are interested, I would love to have a lively discussion about it.
+
+### Design Processes That Emerged After This Treatise
+
+Next, let me talk about "what processes were actually used in the field after this treatise?" However, the primary author of the materials I am about to introduce -- Yamabe, co-founder and former representative of Alliance Port -- has said, "This does not inherit from Structural Constructivism," so please read it with that understanding (though since we were working together, I do not think you can prove the influence was zero).
+
+Indeed, was it applied with the same rigor as this treatise afterward? Not exactly. That is simply the reality of working on the ground -- you cannot be that meticulous about everything. That was unfinished business for me, and when I hear about how companies like Takram approach their work, I think, "I wish I could have taken it that far, formalizing the method all the way to the output." Nevertheless, the core of "Structural Constructivist Design Theory" -- building consensus with clients -- has been carried forward to some degree in [the "Co-creative Design" approach and booklet introduced here](http://www.allianceport.jp/process/index.html). Since I have already left the company, I will not go into detailed explanations, but if you are interested, the booklet on the Alliance Port website is worth a read.
+
+### Where to Find the Treatise and Acknowledgments
+
+The treatise "Applying Structural Constructivist Design Theory to the Requirements Definition Process in Design" can be downloaded from the following GitHub repository:
+
+[constructive-design_v01.pdf](https://github.com/tokiwatch/documents/blob/master/constructive-design_v01.pdf)
+
+Finally, I would like to express my gratitude to the team at Alliance Port LLC (now Alliance Port Inc.) and to our clients. That my experiences working with all of you have been preserved in this form is a source of pride. I also thank my co-authors, Yamabe and Ogawa. Without working with the two of you, I might never have written something like this, never have connected with Structural Constructivism, and never have ended up doing research at IAMAS. And last but not least, my deepest thanks go to Tokiwa Takushi. Thanks to him, I had my first opportunity to write a paper for academic submission. The fact that this work still exists in this form lets me believe that all the struggles I went through at the company were not in vain -- not a single one. Let us go out for drinks again sometime.
+
+What I intended to be a "quick write-up" ended up being quite long, but that concludes my introduction to the treatise "Applying Structural Constructivist Design Theory to the Requirements Definition Process in Design." I hope it helps someone, somewhere, someday...
+
+</div>

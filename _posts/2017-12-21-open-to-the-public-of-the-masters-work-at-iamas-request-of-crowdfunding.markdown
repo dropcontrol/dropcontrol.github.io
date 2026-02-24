@@ -1,8 +1,13 @@
 ---
 layout: post
 title: "IAMASでの修士作品の公開とクラウドファンディングのお願い"
+title_en: "Sharing My Master's Works at IAMAS and a Crowdfunding Request"
 date: "2017-12-21 07:00:00 +0900"
+bilingual: true
+original_lang: ja
 ---
+
+<div lang="ja" markdown="1">
 
 ※ この記事は[IAMAS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/iamas)の12月21日の記事です。
 
@@ -22,11 +27,11 @@ date: "2017-12-21 07:00:00 +0900"
 
 この曲を演奏するにあたっては先に書いたように「楽譜と指示書」というものをミュージシャンに渡して演奏をしてもらっています。その指示書、つまり「作品本体」ですがそれはこちらからダウンロード出来ます。
 
-[”Music for multilayered temporal structures”](https://goo.gl/o1pTEk)
+["Music for multilayered temporal structures"](https://goo.gl/o1pTEk)
 
-この作品にはあともう一曲"Etude \#3"という曲が入っていますが、それについては以下のsoundcloudで聴くことができます。  
+この作品にはあともう一曲"Etude \#3"という曲が入っていますが、それについては以下のsoundcloudで聴くことができます。
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/372057608&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>  
+<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/372057608&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
 
 他にも途中で作っていた習作が面白いのですが、それはまたの機会に。
 
@@ -55,3 +60,61 @@ date: "2017-12-21 07:00:00 +0900"
 [支援先のpolcaのプロジェクトはこちら](https://polca.jp/projects/X1MGPvdoQAD)
 
 どうぞよろしくお願いをいたします。
+
+</div>
+
+<div lang="en" markdown="1">
+
+*This post is for the 21st day of the [IAMAS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/iamas).*
+
+I previously wrote about [participating in ICSAF2017 and the 34th JSSA Research Meeting](/event/2017/12/09/icsaf2018-and-iamas-research-latex-format.html), and I'm happy to report that the presentation went well. I'm currently on the Shinkansen heading back to Ogaki. Today, I'd like to share my master's works from IAMAS (to the extent presented at ICSAF2017) and make a crowdfunding request for the re-performance at the graduation exhibition "IAMAS2018" in February next year.
+
+## Agenda
+
+* About my master's works
+* What kind of work is it?
+* Crowdfunding request
+
+### About My Master's Works
+
+After two years of research at IAMAS working toward a master's degree (in Media Expression), I passed the work examination last month. I'm grateful to everyone who helped and advised me along the way. My work is called "Music for multilayered temporal structures" -- essentially a booklet containing scores and instructions as a musical work. The booklet includes three pieces in lead sheet format positioned as etudes. Here, I'd like to introduce two of them ("Etude \#1" and "Etude \#2") as actually performed by musicians. Please watch the video below -- a piano trio performance with Tomohito Yoshijima on drums, Yuji Kawamoto on bass, and Masaaki Kaneko on piano.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3AuNz4GiLsI?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+For these performances, I gave the musicians "scores and instructions" as mentioned above. You can download the instructions -- the work itself -- from here:
+
+["Music for multilayered temporal structures"](https://goo.gl/o1pTEk)
+
+There's also a third piece, "Etude \#3", which you can listen to on SoundCloud below:
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/372057608&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+
+I also made some interesting sketches along the way, but I'll save those for another time.
+
+### What Kind of Work Is It?
+
+Let me briefly explain what this work is about.
+
+Put very simply, it's "music that layers 4/4 time signatures at different tempos." For a detailed explanation, please refer to the research report [Attempt to Create Music with Multilayered Temporal Structures and Possibility of Embodiments](http://data.jssa.info/paper/2017v09n03/1.Yamato.pdf) presented at the 34th JSSA Research Meeting. My research motivation at IAMAS was to explore whether the "polyrhythm/cross-rhythm" studies from Naruyoshi Kikuchi's private school "Penguin Music College" graduate course in Black Music could be developed further.
+
+Through various twists and turns, I arrived at a method called "music with multilayered temporal structures." Simply put, it involves "taking n beats based on a single beat unit, converting them to 4/4 time, and layering them." Its key characteristics are:
+
+* The beat units are not shared between layers
+* Since n beats are converted to groups of 4, bar lines are also not shared and wrap around
+* However, the layers align at the least common multiple measured in the original beat length (e.g., the 21st beat for 4-beat and 5-beat 4/4 layers)
+
+The method itself is simple, but performing it is quite challenging since there's no steady shared beat. In the video above, the musicians are not listening to a click track -- they're maintaining their own beats through their own ability.
+
+I plan to continue releasing materials from this process and exhibit them at next year's graduation exhibition. Please visit "[IAMAS 16th Graduating Class Research Presentation IAMAS2018](http://www.iamas.ac.jp/exhibit18/)" from February 22-25.
+
+### Crowdfunding Request
+
+At the graduation exhibition, I'm planning a self-organized event where I'll invite the drummer and bassist from the video above, and this time I'll also play guitar for a guitar trio re-performance. I'm seeking crowdfunding support for rehearsal costs, musicians' travel expenses, and other costs. Of course, the performance will happen regardless of how much funding is raised, so please don't worry about that. However, I spent quite a bit on producing the video above in pursuit of "maximizing the research," so any support would honestly be a great help.
+
+I understand that the exhibition is in Ogaki (not easy to visit casually from Tokyo) and that the returns are only publicly available information, but if you'd like to support this, please use the link below (this is my first time using polca for fundraising; the downside is you need to install the app to contribute... if anyone knows a better method, please let me know).
+
+[Support via polca here](https://polca.jp/projects/X1MGPvdoQAD)
+
+Thank you very much for your support.
+
+</div>
