@@ -5,6 +5,7 @@ title_ja: "IAMAS修士作品の英語版を公開しました"
 date: "2018-07-18 04:43:18 +0900"
 bilingual: true
 original_lang: en
+image: /images/ogp/2018-07-18-english-version-of-my-master-works-at-iamas-is-now-available.png
 ---
 
 <div lang="ja" markdown="1">

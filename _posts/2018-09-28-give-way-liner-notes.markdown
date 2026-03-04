@@ -8,6 +8,7 @@ original_lang: ja
 redirect_from:
   - /2018/09/28/give-way-liner-notes-ja.html
   - /2018/09/28/give-way-liner-notes-en.html
+image: /images/ogp/2018-09-28-give-way-liner-notes.png
 ---
 
 <div lang="ja" markdown="1">

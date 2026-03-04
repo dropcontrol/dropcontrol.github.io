@@ -6,6 +6,7 @@ date: "2017-12-04 07:00:00 +0900"
 categories: blog
 bilingual: true
 original_lang: ja
+image: /images/ogp/2017-12-04-introducing-about-a-method-for-requirements-specification-demand-process-by-design-strategy-beased-on-structuralconstructivism.png
 ---
 
 <div lang="ja" markdown="1">

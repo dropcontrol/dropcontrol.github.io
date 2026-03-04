@@ -5,6 +5,7 @@ title_en: "Change of Domain Name for This Website"
 date: "2018-08-09 09:15:03 +0900"
 bilingual: true
 original_lang: ja
+image: /images/ogp/2018-08-09-%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E5%90%8D%E5%A4%89%E6%9B%B4%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9Bchange-domain-name-for-this-website.png
 ---
 
 <div lang="ja" markdown="1">

@@ -5,6 +5,7 @@ title_en: "Live Performance at NxPC.Live vol.36"
 date: "2019-06-07 10:00:31 +0900"
 bilingual: true
 original_lang: ja
+image: /images/ogp/2019-06-07-exhibit-to-live-performance-at-nxpclive-vol36.png
 ---
 
 <div lang="ja" markdown="1">

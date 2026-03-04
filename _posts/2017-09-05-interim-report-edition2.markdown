@@ -6,6 +6,7 @@ date: "2017-09-05 21:15:16 +0900"
 categories: event
 bilingual: true
 original_lang: ja
+image: /images/ogp/2017-09-05-interim-report-edition2.png
 ---
 
 <div lang="ja" markdown="1">

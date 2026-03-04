@@ -5,6 +5,7 @@ title_en: "Exhibit to Live Performance at Algorave Tokyo"
 date: "2018-11-17 05:42:01 +0900"
 bilingual: true
 original_lang: en
+image: /images/ogp/2018-11-17-Exhibit-to-live-performance-at-algorabe-tokyo.png
 ---
 
 <div lang="ja" markdown="1">

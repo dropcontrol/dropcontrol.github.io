@@ -5,6 +5,7 @@ title_ja: "IAMASでの修士作品と修士論文"
 date: "2018-09-25 11:25:38 +0900"
 bilingual: true
 original_lang: en
+image: /images/ogp/2018-09-25-masters-works-and-theses-at-iamas.png
 ---
 
 <div lang="ja" markdown="1">

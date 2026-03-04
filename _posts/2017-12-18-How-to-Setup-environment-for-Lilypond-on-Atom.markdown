@@ -6,6 +6,7 @@ date: "2017-12-18 07:00:00 +0900"
 categories: blog
 bilingual: true
 original_lang: ja
+image: /images/ogp/2017-12-18-How-to-Setup-environment-for-Lilypond-on-Atom.png
 ---
 
 <div lang="ja" markdown="1">
