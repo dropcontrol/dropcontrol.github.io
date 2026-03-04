@@ -5,6 +5,7 @@ title_ja: "Worksページを作りました"
 date: "2018-07-20 06:44:22 +0900"
 bilingual: true
 original_lang: en
+image: /images/ogp/2018-07-20-works-page-is-now-available.png
 ---
 
 <div lang="ja" markdown="1">

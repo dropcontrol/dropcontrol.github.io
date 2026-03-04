@@ -6,6 +6,7 @@ date: "2017-12-02 08:44:52 +0900"
 categories: blog
 bilingual: true
 original_lang: ja
+image: /images/ogp/2017-12-02-how-to-setup-evironment-for-latex-on-atom-with-live-preview.png
 ---
 
 <div lang="ja" markdown="1">

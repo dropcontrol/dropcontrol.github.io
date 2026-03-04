@@ -5,6 +5,7 @@ title_en: "Sharing My Master's Works at IAMAS and a Crowdfunding Request"
 date: "2017-12-21 07:00:00 +0900"
 bilingual: true
 original_lang: ja
+image: /images/ogp/2017-12-21-open-to-the-public-of-the-masters-work-at-iamas-request-of-crowdfunding.png
 ---
 
 <div lang="ja" markdown="1">

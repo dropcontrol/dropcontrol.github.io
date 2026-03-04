@@ -5,6 +5,7 @@ title_en: "Workshop for \"Sound Studio\" at IAMAS"
 date: "2019-06-07 09:13:46 +0900"
 bilingual: true
 original_lang: ja
+image: /images/ogp/2019-06-07-workshop-for-sound-studio-at-iamas.png
 ---
 
 <div lang="ja" markdown="1">

@@ -5,6 +5,7 @@ title_en: "Hosting the Event \"The Physicality of Music Theory\""
 date: "2021-08-18 12:26:08 +0900"
 bilingual: true
 original_lang: ja
+image: /images/ogp/2021-08-18-almf-event-the-physicality-of-music-theory.png
 ---
 
 <div lang="ja" markdown="1">

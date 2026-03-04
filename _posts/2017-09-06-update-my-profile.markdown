@@ -6,6 +6,7 @@ date: "2017-09-06 09:02:25 +0900"
 categories: information
 bilingual: true
 original_lang: ja
+image: /images/ogp/2017-09-06-update-my-profile.png
 ---
 
 <div lang="ja" markdown="1">

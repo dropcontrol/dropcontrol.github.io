@@ -6,6 +6,7 @@ date: 2026-03-05 00:00:00 +0900
 categories: blog
 bilingual: true
 original_lang: ja
+image: /images/ogp/2026-03-05-ai-to-kurasu-kisetsu.png
 ---
 
 <div lang="ja" markdown="1">

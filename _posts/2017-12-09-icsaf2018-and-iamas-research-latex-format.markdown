@@ -6,6 +6,7 @@ date: "2017-12-09 07:00:00 +0900"
 categories: event
 bilingual: true
 original_lang: ja
+image: /images/ogp/2017-12-09-icsaf2018-and-iamas-research-latex-format.png
 ---
 
 <div lang="ja" markdown="1">
