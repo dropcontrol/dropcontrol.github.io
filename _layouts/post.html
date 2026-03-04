@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    {%- if page.bilingual and page.title_en -%}
+      <h1 class="post-title p-name" itemprop="name headline">
+        <span class="title-ja">{{ page.title | escape }}</span>
+        <span class="title-en" style="display:none">{{ page.title_en | escape }}</span>
+      </h1>
+    {%- elsif page.bilingual and page.title_ja -%}
+      <h1 class="post-title p-name" itemprop="name headline">
+        <span class="title-ja" style="display:none">{{ page.title_ja | escape }}</span>
+        <span class="title-en">{{ page.title | escape }}</span>
+      </h1>
+    {%- else -%}
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- endif -%}
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        &bull; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
+    {%- if page.bilingual and page.original_lang -%}
+      {%- if page.original_lang == "en" -%}
+        <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">日本語で読む</button>
+      {%- elsif page.original_lang == "ja" -%}
+        <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">Read in English</button>
+      {%- endif -%}
+    {%- endif -%}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

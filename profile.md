@@ -1,8 +1,13 @@
 ---
 layout: page
-title: Profile(en/ja)
+title: Profile
+title_en: Profile
 permalink: /profile/
+bilingual: true
+original_lang: ja
 ---
+
+<div lang="en" markdown="1">
 
 ## HIROSHI YAMATO / dropcontrol
 
@@ -15,22 +20,9 @@ After graduating from high school, while composing music for independent movies,
 
 After retiring from Alliance Port, I graduated from [Institute of Advanced Media Arts and Sciences (IAMAS)](http://www.iamas.ac.jp) in April 2016. I studied with Prof. Masahiro Miwa at the same university and is doing research and production of rhythm in music.
 
-In addition, I studied guitar with Ginji Ogawa  and jazz guitar with Ichino Motohiko. Also studying music theory, tenor saxophone with Naruyoshi Kikuchi. I released music "NewYork 2997" on the composition compilation album "PCM 15 BEAT MUSICS / PENGIN MUSIC Graduate School 2015 Black Music Class Graduation Works Collection" (Sony Music Artists / TABOO Label released on April 26th, 2016 / [amazon](http://amzn.to/2vJLg15), [iTunes](https://itunes.apple.com/jp/album/pcm15-beat-musics-%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6%E9%99%A22015%E5%B9%B4%E5%BA%A6%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%82%B9%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C%E9%9B%86/id1106801244)) produced at Naruyoshi Kikuchi's "Penguin Music College" , Downloaded and sold with Line Music etc.),  as a beat maker.
-
-**音楽家(作編曲、ギタリスト、テナーサックス奏者、ビートメーカー)、エンジニア、写真家**
-
-1970年生れ。横浜出身。  
-高校卒業後、自主映画への音楽提供をしながら、日本ユニソフト、米国ブログベンチャーであるSixApartの日本法人(現在の[シックス・アパート株式会社](http://www.sixapart.jp/))で主にサポートエンジニアとしてキャリアの前半をスタートする。2006年に ─「人と人」、「物」と「人」、「情報」と「人」をつなぐこと─ をコンセプトにデザイン会社である合同会社アライアンス・ポート([現アライアンス・ポート株式会社](http://www.allianceport.jp/))を共同創業者として起業し初代CEO、テクニカルディレクターを務める。主な実績に、[山口情報芸術センター](http://www.ycam.jp)、[日本科学未来館](http://www.miraikan.jst.go.jp)など国内有数の文化施設のウェブサイト構築やディレクション、iOSアプリ開発等を手掛ける。
-
-アライアンス・ポートを退職後、2016年4月から情報科学芸術大学院大学([IAMAS](http://www.iamas.ac.jp))の修士(メディア表現)を修了。同学において三輪眞弘に師事し音楽におけるリズムの研究と作品制作を行った。
-
-現在は、慶應義塾大学湘南藤沢キャンパス（SFC)の増井研究室にて後期博士課程に在籍。また、同学の非常勤研究員としても活動(2019〜）。
-
-また、ギター演奏全般を[小川銀次](http://ginjiogawa.co.uk/frame.htm)、ジャズギターを[市野元彦](http://motohikoichino.com)に師事。また音楽理論、テナーサックスを[菊地成孔](https://www.kikuchinaruyoshi.net)に師事する。菊地成孔主宰の「ペンギン音楽大学」で制作された「PCM15 BEAT MUSICS/ペンギン音楽大学院2015年度ブラックミュージッククラス卒業制作集」(Sony Music Artists/TABOOレーベルから2016/4/26にリリース。[amazon](http://amzn.to/2vJLg15), [iTunes](https://itunes.apple.com/jp/album/pcm15-beat-musics-%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6%E9%99%A22015%E5%B9%B4%E5%BA%A6%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%82%B9%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C%E9%9B%86/id1106801244), [Line Music](https://music.line.me/album/mb0000000000c0b932)等でダウンロード販売、配信中)にビートメイカーとし楽曲を提供。
-
 ### Lecture / Workshop
 
-* 情報科学芸術大学院大学 特別非常勤講師 (「サウンドスタジオ演習」, [2019](http://hiroshiyamato.com/2019/06/07/workshop-for-sound-studio-at-iamas.html), 2020, 2021)
+* IAMAS Special Part-time Lecturer ("Sound Studio", [2019](http://hiroshiyamato.com/2019/06/07/workshop-for-sound-studio-at-iamas.html), 2020, 2021)
 
 ### What's dropcontrol
 
@@ -42,6 +34,37 @@ You can check my activity at follow bellow.
 * [youtube](https://www.youtube.com/channel/UCZSPyPrGHfokHw_ywxdZLAg)
 * [soundcloud](https://soundcloud.com/dropcontrol/)
 
+### Contact
+
+If you have anykind of offer(conposing, mixing, mastering, perfoming), feel free to email me to yamato@gmail.com .
+
+### Other resources
+
+</div>
+
+<div lang="ja" markdown="1">
+
+## HIROSHI YAMATO / dropcontrol
+
+### Biography
+
+**音楽家(作編曲、ギタリスト、テナーサックス奏者、ビートメーカー)、エンジニア、写真家**
+
+1970年生れ。横浜出身。
+高校卒業後、自主映画への音楽提供をしながら、日本ユニソフト、米国ブログベンチャーであるSixApartの日本法人(現在の[シックス・アパート株式会社](http://www.sixapart.jp/))で主にサポートエンジニアとしてキャリアの前半をスタートする。2006年に ─「人と人」、「物」と「人」、「情報」と「人」をつなぐこと─ をコンセプトにデザイン会社である合同会社アライアンス・ポート([現アライアンス・ポート株式会社](http://www.allianceport.jp/))を共同創業者として起業し初代CEO、テクニカルディレクターを務める。主な実績に、[山口情報芸術センター](http://www.ycam.jp)、[日本科学未来館](http://www.miraikan.jst.go.jp)など国内有数の文化施設のウェブサイト構築やディレクション、iOSアプリ開発等を手掛ける。
+
+アライアンス・ポートを退職後、2016年4月から情報科学芸術大学院大学([IAMAS](http://www.iamas.ac.jp))の修士(メディア表現)を修了。同学において三輪眞弘に師事し音楽におけるリズムの研究と作品制作を行った。
+
+現在は、慶應義塾大学湘南藤沢キャンパス（SFC)の増井研究室にて後期博士課程に在籍。また、同学の非常勤研究員としても活動(2019〜）。
+
+また、ギター演奏全般を[小川銀次](http://ginjiogawa.co.uk/frame.htm)、ジャズギターを[市野元彦](http://motohikoichino.com)に師事。また音楽理論、テナーサックスを[菊地成孔](https://www.kikuchinaruyoshi.net)に師事する。菊地成孔主宰の「ペンギン音楽大学」で制作された「PCM15 BEAT MUSICS/ペンギン音楽大学院2015年度ブラックミュージッククラス卒業制作集」(Sony Music Artists/TABOOレーベルから2016/4/26にリリース。[amazon](http://amzn.to/2vJLg15), [iTunes](https://itunes.apple.com/jp/album/pcm15-beat-musics-%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E9%9F%B3%E6%A5%BD%E5%A4%A7%E5%AD%A6%E9%99%A22015%E5%B9%B4%E5%BA%A6%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%82%B9%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C%E9%9B%86/id1106801244), [Line Music](https://music.line.me/album/mb0000000000c0b932)等でダウンロード販売、配信中)にビートメイカーとし楽曲を提供。
+
+### 講義 / ワークショップ
+
+* 情報科学芸術大学院大学 特別非常勤講師 (「サウンドスタジオ演習」, [2019](http://hiroshiyamato.com/2019/06/07/workshop-for-sound-studio-at-iamas.html), 2020, 2021)
+
+### dropcontrol とは
+
 2016年から始動した自身の主宰するex-Jazzプロジェクト。音楽家としてジャズ基調でありながらもジャンル横断、アルゴリズミック、Man->Machine->Manを主題に置きつつも、エンジニアとしてコンピューターシミュレーションや技術的動向を視野に入れながら次の音楽の展開を考える為のプロジェクト。活動の形態はDJ、ソロパフォーマンスからバンドまで。その為メンバーは固定せず流動的。編成によって /DUO /TRIO など呼称にpostfixを付けて活動。現在までの活動は以下等を参照。
 
 * [Apple Music](https://itunes.apple.com/jp/artist/dropcontrol/1419711298)
@@ -49,10 +72,10 @@ You can check my activity at follow bellow.
 * [youtube](https://www.youtube.com/channel/UCZSPyPrGHfokHw_ywxdZLAg)
 * [soundcloud](https://soundcloud.com/dropcontrol/)
 
-### Contact
-
-If you have anykind of offer(conposing, mixing, mastering, perfoming), feel free to email me to yamato@gmail.com .
+### 連絡先
 
 制作(楽曲制作、ミックス/マスタリング、インスタレーション作品制作、エンジニアリング、撮影等)や出演オファーなどは、yamato@gmail.com まで。
 
 ### Other resources
+
+</div>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    {%- if page.bilingual and page.title_en -%}
+      <h1 class="post-title">
+        <span class="title-ja">{{ page.title | escape }}</span>
+        <span class="title-en" style="display:none">{{ page.title_en | escape }}</span>
+      </h1>
+    {%- elsif page.bilingual and page.title_ja -%}
+      <h1 class="post-title">
+        <span class="title-ja" style="display:none">{{ page.title_ja | escape }}</span>
+        <span class="title-en">{{ page.title | escape }}</span>
+      </h1>
+    {%- else -%}
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    {%- endif -%}
+    {%- if page.bilingual and page.original_lang -%}
+      {%- if page.original_lang == "en" -%}
+        <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">日本語で読む</button>
+      {%- elsif page.original_lang == "ja" -%}
+        <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">Read in English</button>
+      {%- endif -%}
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

@@ -1,8 +1,29 @@
 ---
 layout: post
-title: "Exhibit to live performance at Algorave Tokyo"
+title: "Algorave Tokyoでのライブパフォーマンス出演"
+title_en: "Exhibit to Live Performance at Algorave Tokyo"
 date: "2018-11-17 05:42:01 +0900"
+bilingual: true
+original_lang: en
 ---
+
+<div lang="ja" markdown="1">
+
+次の日曜(2018/11/18)に、東京渋谷のCircus Tokyoで行なわれる"Algorave Tokyo"に出演します。ウェブでのクレジットは"Hiroshi Yamato"となっていますが、dropcontrol + Kota Tsumagariの２人で出演します。
+
+今回は、Opusmodus使ったLive Coding 行いっての演奏と、そのMIDIデータを津曲さんのLaptop上で動いてるPerformace RNNを使って moog mother32 を演奏します(テナーサックスも少し吹くつもりですが)。学習データは今回は独自にジャズのアルバムから学習を行ったものを活用します。
+
+僕等の出番は21:30あたりから、という話です。他の出演者の顔ぶれも素晴しいし、音楽表現のエッジなものが見れるチャンスですのでちょっとでも興味があれば是非足を運んでください。
+ちなみに終電で帰れる時間に終る健全なイベントです(笑)。
+
+それではお待ちしています。
+
+- [イベントページ CIRCUS TOKYO](http://circus-tokyo.jp/event/algorave-x-nxpc-lab-at-tokyo-iamas/)
+- [イベントページ Algorave Tokyo](https://algorave.tokyo/20181118-algorave-tokyo/)
+
+</div>
+
+<div lang="en" markdown="1">
 
 Next Sunday, when 18/11/2018, I will exhibit to live performance at Algorave Tokyo at CIRCUS TOKYO, Shibuya, Tokyo as "dropcontrol + Kota Tsumagari" (but, there [website](https://algorave.tokyo/20181118-algorave-tokyo/) was listed my name at line-up as "Hiroshi Yamato").
 
@@ -15,11 +36,4 @@ See you in there!!
 - [EVENT WEB at CIRCUS TOKYO](http://circus-tokyo.jp/event/algorave-x-nxpc-lab-at-tokyo-iamas/)
 - [EVENT WEB at Algorave Tokyo](https://algorave.tokyo/20181118-algorave-tokyo/)
 
-次の日曜(2018/11/18)に、東京渋谷のCircus Tokyoで行なわれる"Algorave Tokyo"に出演します。ウェブでのクレジットは"Hiroshi Yamato"となっていますが、dropcontro + Kota Tsumagariの２人で出演します。
-
-今回は、Opusmodus使ったLive Coding 行いっての演奏と、そのMIDIデータを津曲さんのLaptop上で動いてるPerformace RNNを使って moog mother32 を演奏します(テナーサックスも少し吹くつもりですが)。学習データは今回は独自にジャズのアルバムから学習を行ったものを活用します。
-
-僕等の出番は21:30あたりから、という話です。他の出演者の顔ぶれも素晴しいし、音楽表現のエッジなものが見れるチャンスですのでちょっとでも興味があれば是非足を運んでください。
-ちなみに終電で帰れる時間に終る健全なイベントです(笑)。
-
-それではお待ちしています。
+</div>
