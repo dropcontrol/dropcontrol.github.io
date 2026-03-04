@@ -28,14 +28,14 @@
   function applyLang(lang) {
     document.documentElement.lang = lang;
 
-    var jaDivs = document.querySelectorAll('[lang="ja"]');
-    var enDivs = document.querySelectorAll('[lang="en"]');
+    var jaDivs = document.querySelectorAll('div[lang="ja"]');
+    var enDivs = document.querySelectorAll('div[lang="en"]');
 
     for (var i = 0; i < jaDivs.length; i++) {
-      jaDivs[i].style.display = lang === "ja" ? "" : "none";
+      jaDivs[i].style.display = lang === "ja" ? "block" : "none";
     }
     for (var i = 0; i < enDivs.length; i++) {
-      enDivs[i].style.display = lang === "en" ? "" : "none";
+      enDivs[i].style.display = lang === "en" ? "block" : "none";
     }
 
     var buttons = document.querySelectorAll(".lang-toggle-btn");
