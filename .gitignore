@@ -6,6 +6,7 @@ vendor
 .bundle
 
 .DS_Store
+.claude/plans/
 scripts/__pycache__/
 
 # [code:security-patterns:fbe2794b]
