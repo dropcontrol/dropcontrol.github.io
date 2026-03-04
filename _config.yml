@@ -46,6 +46,7 @@ timezone: Asia/Tokyo
 future: false
 # Exclude from processing.
 exclude:
+  - docs/
   - scripts/
   - Gemfile
   - Gemfile.lock
