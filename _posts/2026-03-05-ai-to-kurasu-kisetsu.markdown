@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living with AI"
+title: "AIと暮らす"
 title_en: "Living with AI"
 date: 2026-03-05 00:00:00 +0900
 categories: blog
