@@ -32,6 +32,7 @@ defaults:
       image: /images/ogp-default.png
 
 twitter:
+  username: yamato
   card: summary_large_image
 
 # Build settings
