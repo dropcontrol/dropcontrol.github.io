@@ -9,6 +9,8 @@ layout: default
 
   {{ content }}
 
+  <button class="lang-toggle-btn" onclick="toggleLang()" aria-label="Switch language">Read in English</button>
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">Posts</h2>
     <ul class="post-list">
