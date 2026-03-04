@@ -166,10 +166,7 @@ def generate_ogp(title, output_path, title_en=None):
 
     # フォントサイズ — 日英同じサイズ・ウェイトで力強く
     title_font_size = 52
-    site_font_size = 16
-
     title_font = load_font(FONT_BOLD, title_font_size)
-    site_font = load_font(FONT_LIGHT, site_font_size)
 
     # レイアウト: 左寄せ、バウハウスの非対称グリッド
     margin_left = 80
@@ -231,7 +228,9 @@ def generate_ogp(title, output_path, title_en=None):
     draw.rectangle([(0, HEIGHT - 8), (WIDTH, HEIGHT)], fill=RULE_COLOR)
 
     # 保存
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    output_dir = os.path.dirname(output_path)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
     img.save(output_path, "PNG", optimize=True)
     print(f"Generated: {output_path}")
 
@@ -242,7 +241,6 @@ def generate_default_ogp(output_path):
     draw = ImageDraw.Draw(img)
 
     # バウハウスの三原色ブロック
-    block_w = 120
     draw.rectangle([(0, 0), (WIDTH, 8)], fill=RULE_COLOR)
     draw.rectangle([(0, HEIGHT - 8), (WIDTH, HEIGHT)], fill=RULE_COLOR)
 
@@ -263,7 +261,9 @@ def generate_default_ogp(output_path):
     url_text = "hiroshiyamato.com"
     draw.text((margin_left, name_y + 80), url_text, font=sub_font, fill=SUB_TEXT_COLOR)
 
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    output_dir = os.path.dirname(output_path)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
     img.save(output_path, "PNG", optimize=True)
     print(f"Generated default: {output_path}")
 

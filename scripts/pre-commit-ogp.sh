@@ -14,6 +14,13 @@ SCRIPT_DIR="${REPO_ROOT}/scripts"
 POSTS_DIR="${REPO_ROOT}/_posts"
 OGP_DIR="${REPO_ROOT}/images/ogp"
 
+# Pillow が利用可能かチェック（なければスキップ）
+if ! python3 -c "from PIL import Image" 2>/dev/null; then
+    echo "OGP: Warning: Pillow not installed, skipping OGP generation"
+    echo "OGP: Install with: pip3 install Pillow"
+    exit 0
+fi
+
 # ステージされた _posts/ 内のファイルを検出（新規・変更）
 STAGED_POSTS=$(git diff --cached --name-only --diff-filter=ACM -- '_posts/*.markdown' '_posts/*.md' 2>/dev/null || true)
 
@@ -24,7 +31,8 @@ fi
 echo "OGP: Checking staged posts for OGP image generation..."
 
 GENERATED=0
-for post in $STAGED_POSTS; do
+while IFS= read -r post; do
+    [ -z "$post" ] && continue
     post_path="${REPO_ROOT}/${post}"
     basename=$(basename "$post")
     slug="${basename%.*}"
@@ -45,7 +53,7 @@ for post in $STAGED_POSTS; do
         git add "$post_path"
         GENERATED=$((GENERATED + 1))
     fi
-done
+done <<< "$STAGED_POSTS"
 
 if [ $GENERATED -gt 0 ]; then
     echo "OGP: Generated ${GENERATED} new OGP image(s)"
