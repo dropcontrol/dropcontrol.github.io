@@ -47,6 +47,7 @@ timezone: Asia/Tokyo
 future: false
 # Exclude from processing.
 exclude:
+  - CLAUDE.md
   - docs/
   - scripts/
   - Gemfile
